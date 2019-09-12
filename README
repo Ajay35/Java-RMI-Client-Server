@@ -1,0 +1,18 @@
+This Folder contains 3 files:
+	1.GraphOperations.java 
+		
+		This is Remote Shared Interface between client and server
+		File contains functions:
+			addEdge(int,int);
+			shortestPath(int,int);
+			printGraph();
+	
+	2.Client.java
+		
+		Connects the client application to server.
+		Invokes functions in server such as add_edge,shortest_path.
+	3.Server.java
+		
+		Holds the graph data structure as adjacency list.
+		The functions of graph operations are invoked by client.
+	
